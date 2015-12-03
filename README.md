@@ -11,3 +11,6 @@ After that, use your Mac/Linux terminal to move into a new directory, and call.
 `nr`
 
 It's that easy!
+
+A full tutorial on what the boiler plate files do is available at:
+http://www.cyrusstoller.com/2014/06/17/using-rspec-without-rails/
