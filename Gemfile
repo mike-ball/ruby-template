@@ -1,10 +1,12 @@
 source 'https://rubygems.org'
 
 group :development do
-  gem 'rspec', '~> 3.0.0'
-  gem 'guard-rspec', '~> 4.2.10'
+  gem 'rspec', '~> 3.4.0'
+  gem 'guard-rspec', '~> 4.6.4'
+end
 
-  # # Test gems on Macintosh OS X
-  # gem 'rb-fsevent', '~> 0.9.1', :require => false
-  # gem "growl", "~> 1.0.3"	
+# Mac OS X
+group :darwin do
+  gem 'rb-fsevent', '~> 0.9.6', require: false
+  gem "growl", "~> 1.0.3"
 end
